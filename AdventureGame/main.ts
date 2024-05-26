@@ -51,7 +51,7 @@ while (running) {
             console.log(`\t> You receive ${damageTaken} in retaliation.\n` )
 
             if (health < 1){
-                console.log(`\t You have taken too much damage. You are too weak to go on!`)
+                console.log(`\tYou have taken too much damage. You are too weak to go on!`)
                 break;
             }
         
